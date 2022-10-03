@@ -34,6 +34,9 @@ class comment
         return true;
     }
 
+    /**
+     * @return array
+     */
     public function all():array{
         $query = mysqli_query($this->connection, 'SELECT * FROM comments ORDER BY id DESC LIMIT 333');
         $arr = [];

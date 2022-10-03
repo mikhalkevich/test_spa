@@ -1,0 +1,15 @@
+.content {
+    background:azure;
+}
+.content_height {
+    max-height: 300px;
+    overflow: scroll;
+    width:80%;
+    margin:0 auto;
+    background: white;
+}
+.content_form {
+    margin:0 auto;
+    width:99%;
+    text-align: center;
+}
